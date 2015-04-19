@@ -1,0 +1,33 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Eternal
+tagline:             'For my dearest love'
+description:         'For my Dear Love <a href="https://twitter.com/kedartatwawadi" target="_blank">@kedar</a>.'
+url:    https://ourmemories.github.io/
+baseurl:        http://ourmemories.github.io/
+rooturl:        http://ourmemories.github.io/
+paginate:            5
+
+# About/contact
+author:
+  name:              Ked
+  url:               http://ourmemories.github.io/
+ 
+
+# Custom vars
+version:             1.0.0
+
+# plugins
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
